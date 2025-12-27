@@ -1,0 +1,67 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #ffe4e1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+    background: #fff0f5;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+.form-section input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #ffb6c1;
+    outline: none;
+}
+
+.form-section button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff69b4;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-section button:hover {
+    background-color: #ff1493;
+}
+
+.task {
+    background-color: #ffe4e1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task span {
+    font-weight: bold;
+}
+
+.delete-btn {
+    background: #ff69b4;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
